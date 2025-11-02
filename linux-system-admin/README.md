@@ -508,30 +508,3 @@ Several load balancing algorithms are available to distribute traffic optimally:
 For high availability of the director itself, implement Keepalived alongside LVS. Keepalived provides VRRP (Virtual Router Redundancy Protocol) functionality to manage floating IPs, health checking of real servers, and automatic failover between director nodes. Configure synchronization of connection tables between redundant directors to maintain session persistence during failover.
 
 Maintenance and monitoring involve regularly checking the status of virtual services and real servers using `ipvsadm -L -n`, configuring comprehensive health checks to detect and remove failed servers from the pool, implementing proper logging for troubleshooting, and developing procedures for adding or removing servers without disrupting active connections. For complex environments, consider implementing a management layer above the basic LVS functionality to simplify configuration and provide better visibility into the load balancing system.
-
----
-
-## **📢 Contribute & Stay Updated**  
-
-💡 **Want to contribute?**  
-We **welcome contributions!** If you have insights, new tools, or improvements, feel free to submit a **pull request**.  
-
-📌 **How to Contribute?**
-
-- Read the **[CONTRIBUTING.md](https://github.com/NotHarshhaa/DevOps-Interview-Questions/blob/master/CONTRIBUTING.md)** guide.  
-- Fix errors, add missing topics, or suggest improvements.  
-- Submit a **pull request** with your updates.  
-
-📢 **Stay Updated:**  
-⭐ **Star the repository** to get notified about new updates and additions.  
-💬 **Join discussions** in **[GitHub Issues](https://github.com/NotHarshhaa/DevOps-Interview-Questions/issues)** to suggest improvements.  
-
----
-
-## **🌍 Community & Support**  
-
-🔗 **GitHub:** [@NotHarshhaa](https://github.com/NotHarshhaa)  
-📝 **Blog:** [ProDevOpsGuy](https://blog.prodevopsguy.xyz)  
-💬 **Telegram Community:** [Join Here](https://t.me/prodevopsguy)  
-
-![Follow Me](https://imgur.com/2j7GSPs.png)

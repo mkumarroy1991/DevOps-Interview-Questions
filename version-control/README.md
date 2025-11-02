@@ -425,30 +425,3 @@ Implementing a Git workflow for a globally distributed team requires addressing 
 
 **Answer:**
 Designing a version control system that improves upon Git would address several key limitations while preserving Git's core strengths. Improvements might include a more intuitive user interface with clearer command naming and better error messages. The system would have built-in large file handling without requiring extensions like Git LFS. It would support partial clones and sparse checkouts as first-class features for better monorepo performance. Better handling of binary files with specialized diff and merge capabilities would be integrated. The system would use a more secure cryptographic hash function (SHA-256 or better) by default. It would have improved rename and move detection and history tracking. Sub-repository handling would be more seamless than Git submodules. The permission and access control model would be more granular. The system would support distributed workflows while offering better performance for centralized use cases. Database schema migrations would be handled natively. While maintaining Git's distributed nature and performance, this system would prioritize user experience and modern development workflows.
-
----
-
-## **📢 Contribute & Stay Updated**  
-
-💡 **Want to contribute?**  
-We **welcome contributions!** If you have insights, new tools, or improvements, feel free to submit a **pull request**.  
-
-📌 **How to Contribute?**
-
-- Read the **[CONTRIBUTING.md](https://github.com/NotHarshhaa/DevOps-Interview-Questions/blob/master/CONTRIBUTING.md)** guide.  
-- Fix errors, add missing topics, or suggest improvements.  
-- Submit a **pull request** with your updates.  
-
-📢 **Stay Updated:**  
-⭐ **Star the repository** to get notified about new updates and additions.  
-💬 **Join discussions** in **[GitHub Issues](https://github.com/NotHarshhaa/DevOps-Interview-Questions/issues)** to suggest improvements.  
-
----
-
-## **🌍 Community & Support**  
-
-🔗 **GitHub:** [@NotHarshhaa](https://github.com/NotHarshhaa)  
-📝 **Blog:** [ProDevOpsGuy](https://blog.prodevopsguy.xyz)  
-💬 **Telegram Community:** [Join Here](https://t.me/prodevopsguy)  
-
-![Follow Me](https://imgur.com/2j7GSPs.png)
